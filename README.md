@@ -2,6 +2,8 @@
   <img  src="https://github.com/RaTon84/Taller-Lenguajes-de-marcado-UNAHUR/blob/10ba9bdad96272088bfc71626eff781e41499173/logo-unahur.png" alt="logo-unahur" width="250" height="75" />
 </div> 
 
+# TP – Colecciones avanzadas / Exceptions
+
 El Club de Yacht Puerto Black necesita llevar el registro de los Yates que se amarran en
 su fondeadero. Se considera “AMARRA” a la superficie de espejo de agua destinado a
 mantener fondeada una embarcación deportiva. El Club cuenta con un máximo de 70
