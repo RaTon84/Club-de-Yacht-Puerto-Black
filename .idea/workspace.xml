@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56903479-0a44-40ea-88cd-d0cb8e91336e" name="Changes" comment="creacionException" />
+    <list default="true" id="56903479-0a44-40ea-88cd-d0cb8e91336e" name="Changes" comment="creacionException">
+      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYate/YateVela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYate/Fondeadero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYate/Fondeadero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYate/Yate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYate/Yate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYate/YateMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYate/YateMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/clubYate/fondeaderoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/clubYate/fondeaderoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/clubYate/yateMotorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/clubYate/yateMotorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RaTon84"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/RaTon84/Club-de-Yacht-Puerto-Black.git",
@@ -41,8 +55,15 @@
     "JUnit.clubTest.executor": "Run",
     "JUnit.clubTest.maximoAmarras.executor": "Run",
     "JUnit.fondeaderoTest.amarrarYate.executor": "Run",
+    "JUnit.fondeaderoTest.cantidadDeAmarrasDisponibles.executor": "Run",
+    "JUnit.fondeaderoTest.cantidadDeYatesAmarrados.executor": "Run",
+    "JUnit.fondeaderoTest.desamarrarYate.executor": "Debug",
     "JUnit.fondeaderoTest.executor": "Run",
+    "JUnit.fondeaderoTest.maximoAmarras.executor": "Run",
     "JUnit.fondeaderoTest.noExisteAmarraDisponible.executor": "Run",
+    "JUnit.fondeaderoTest.obtenerPrecioDeAmarre.executor": "Run",
+    "JUnit.fondeaderoTest.obtenerRecaudacionTotal.executor": "Run",
+    "JUnit.yateMotorTest.executor": "Run",
     "JUnit.yateMotorTest.test.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -61,87 +82,88 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ar.edu.unahur.obj2.clubYate" />
       <recent name="ar.edu.unahur.obj2.clubYates" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ar.edu.unahur.obj2.clubYates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.fondeaderoTest.noExisteAmarraDisponible">
+  <component name="RunManager" selected="JUnit.fondeaderoTest.obtenerRecaudacionTotal">
     <configuration name="fondeaderoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClubYates" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYates.*" />
+          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYates" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYates.fondeaderoTest" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYate.fondeaderoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fondeaderoTest.amarrarYate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="fondeaderoTest.cantidadDeAmarrasDisponibles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClubYates" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYates.*" />
+          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYates" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYates.fondeaderoTest" />
-      <option name="METHOD_NAME" value="amarrarYate" />
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYate" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYate.fondeaderoTest" />
+      <option name="METHOD_NAME" value="cantidadDeAmarrasDisponibles" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fondeaderoTest.maximoAmarras" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="fondeaderoTest.cantidadDeYatesAmarrados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClubYates" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYates.*" />
+          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYates" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYates.fondeaderoTest" />
-      <option name="METHOD_NAME" value="maximoAmarras" />
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYate" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYate.fondeaderoTest" />
+      <option name="METHOD_NAME" value="cantidadDeYatesAmarrados" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fondeaderoTest.noExisteAmarraDisponible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="fondeaderoTest.obtenerPrecioDeAmarre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClubYates" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYates.*" />
+          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYates" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYates.fondeaderoTest" />
-      <option name="METHOD_NAME" value="noExisteAmarraDisponible" />
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYate" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYate.fondeaderoTest" />
+      <option name="METHOD_NAME" value="obtenerPrecioDeAmarre" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="yateMotorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="fondeaderoTest.obtenerRecaudacionTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClubYates" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYates.*" />
+          <option name="PATTERN" value="ar.edu.unahur.obj2.clubYate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYates" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYates.yateMotorTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.clubYate" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.clubYate.fondeaderoTest" />
+      <option name="METHOD_NAME" value="obtenerRecaudacionTotal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.fondeaderoTest.noExisteAmarraDisponible" />
+        <item itemvalue="JUnit.fondeaderoTest.obtenerRecaudacionTotal" />
+        <item itemvalue="JUnit.fondeaderoTest.obtenerPrecioDeAmarre" />
+        <item itemvalue="JUnit.fondeaderoTest.cantidadDeAmarrasDisponibles" />
+        <item itemvalue="JUnit.fondeaderoTest.cantidadDeYatesAmarrados" />
         <item itemvalue="JUnit.fondeaderoTest" />
-        <item itemvalue="JUnit.fondeaderoTest.amarrarYate" />
-        <item itemvalue="JUnit.yateMotorTest.test" />
-        <item itemvalue="JUnit.fondeaderoTest.maximoAmarras" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731673539599</updated>
-      <workItem from="1731673540624" duration="5022000" />
+      <workItem from="1731673540624" duration="9926000" />
     </task>
     <task id="LOCAL-00001" summary="creacionException">
       <option name="closed" value="true" />
@@ -183,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731678635759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creacionException">
+      <option name="closed" value="true" />
+      <created>1731678743956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731678743956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

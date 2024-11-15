@@ -8,7 +8,7 @@ public class yateMotorTest {
             "Andres Borgeat",
             18.87,
             5.15,
-            119,
+            119.0,
             37,
             5500,
             5959,
