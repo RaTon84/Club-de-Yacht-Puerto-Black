@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56903479-0a44-40ea-88cd-d0cb8e91336e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClubYates.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYates/Fondeadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYates/SinDisponibilidadAmarrasException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYates/Yate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/clubYates/YateMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/clubYates/fondeaderoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/clubYates/yateMotorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="56903479-0a44-40ea-88cd-d0cb8e91336e" name="Changes" comment="creacionException" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RaTon84/Club-de-Yacht-Puerto-Black.git",
+    "accountId": "19f3d8b4-f032-4915-98ce-9f3b96c407ce"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -50,6 +41,7 @@
     "JUnit.clubTest.executor": "Run",
     "JUnit.clubTest.maximoAmarras.executor": "Run",
     "JUnit.fondeaderoTest.amarrarYate.executor": "Run",
+    "JUnit.fondeaderoTest.executor": "Run",
     "JUnit.fondeaderoTest.noExisteAmarraDisponible.executor": "Run",
     "JUnit.yateMotorTest.test.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -181,11 +173,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731673539599</updated>
-      <workItem from="1731673540624" duration="4721000" />
+      <workItem from="1731673540624" duration="5022000" />
     </task>
+    <task id="LOCAL-00001" summary="creacionException">
+      <option name="closed" value="true" />
+      <created>1731678635759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731678635759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creacionException" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacionException" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.clubYates;
+package ar.edu.unahur.obj2.clubYate;
 import static org.junit.Assert.*;
 import org.junit.Test;
 

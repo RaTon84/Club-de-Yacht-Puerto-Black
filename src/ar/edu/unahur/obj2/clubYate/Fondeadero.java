@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.clubYates;
+package ar.edu.unahur.obj2.clubYate;
 import java.util.HashSet;
 import java.util.Set;
 

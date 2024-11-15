@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.clubYates;
+package ar.edu.unahur.obj2.clubYate;
 
 public class SinDisponibilidadAmarraException extends Exception {
     public SinDisponibilidadAmarraException(String message) {
